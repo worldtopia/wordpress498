@@ -1,4 +1,5 @@
 <?php
+//edit
 function the_debug_backtrace($stacktrace=null) {
     if(!isset($stacktrace)){
         //What do you think about using debug_backtrace with DEBUG_BACKTRACE_IGNORE_ARGS? This could save some memory when looking for the call location info
